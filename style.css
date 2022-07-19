@@ -68,7 +68,7 @@ h1 {
     flex-direction: column;
     row-gap: 10px;
     padding: 30px;
-    width: 800px;
+    width: 350px;
     max-height: 200px;
     border-radius: 5px;
 }
@@ -80,6 +80,11 @@ h1 {
 }
 
 .hero-area-menu .blog {
+    background-color: #DD0000;
+    border: 2px solid #DD0000;
+}
+
+.hero-area-menu .upcoming {
     background-color: #DD0000;
     border: 2px solid #DD0000;
 }
@@ -160,6 +165,7 @@ ul li a {
     .hero-area {
         display: flex;
         flex-direction: column;
+        row-gap: 30px;
         background-color: #fff;
     }
     .hero-area-menu button {
@@ -181,7 +187,7 @@ ul li a {
 }
 
 
-/* Small Devices, Tablets */
+/*  Tablets */
 
 @media only screen and (min-width: 576px) and (max-width:992px) {
     .hero-area {
