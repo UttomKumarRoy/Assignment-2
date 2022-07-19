@@ -59,7 +59,6 @@ h1 {
     display: flex;
     column-gap: 20px;
     max-width: 80%;
-    max-height: 900px;
     margin: 0 auto;
 }
 
@@ -114,13 +113,7 @@ footer {
     background-color: #000;
     color: #fff;
     text-align: center;
-    height: 400px;
     margin: 0 auto;
-}
-
-footer>div {
-    position: relative;
-    top: 150px;
 }
 
 hr {
@@ -143,18 +136,58 @@ ul li a {
     color: gray;
 }
 
+.footer {
+    margin-bottom: 0;
+    ;
+}
+
 
 /*Media queries*/
 
 
+/*Mobile Phone */
+
+@media only screen and (max-width:576px) {
+    .banner {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10em;
+        max-height: 800px;
+    }
+    .banner-img {
+        height: 12em;
+    }
+    .hero-area {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+    }
+    .hero-area-menu button {
+        width: 60%;
+    }
+    .hero-area-info .blog-item {
+        max-width: 100%;
+    }
+    .blog-item img {
+        max-width: 100%;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+    }
+}
+
+
 /* Small Devices, Tablets */
 
-@media only screen and (min-width: 768px) and (max-width:992px) {
+@media only screen and (min-width: 576px) and (max-width:992px) {
     .hero-area {
         display: flex;
         flex-direction: column;
         row-gap: 20px;
-        max-width: 80%;
         margin: 0 auto;
     }
     .hero-area-menu {
@@ -164,7 +197,6 @@ ul li a {
         column-gap: 20px;
         padding: 30px;
         width: 100%;
-        max-height: 200px;
         border-radius: 5px;
     }
     .hero-area-menu button {
@@ -175,7 +207,6 @@ ul li a {
         flex-wrap: wrap;
         row-gap: 40px;
         column-gap: 30px;
-        max-height: 800px;
     }
     .blog-item {
         max-width: 47%;
