@@ -79,6 +79,11 @@ h1 {
     border-radius: 10px;
 }
 
+.hero-area-menu a {
+    text-decoration: none;
+    color: black;
+}
+
 .hero-area-menu .blog {
     background-color: #DD0000;
     border: 2px solid #DD0000;
