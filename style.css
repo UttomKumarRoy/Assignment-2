@@ -95,14 +95,10 @@ h1 {
 }
 
 .hero-area-info {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     row-gap: 40px;
-    column-gap: 30px;
-}
-
-.blog-item {
-    max-width: 30%;
+    column-gap: 35px;
 }
 
 .blog-item img {
@@ -176,8 +172,8 @@ ul li a {
     .hero-area-menu button {
         width: 60%;
     }
-    .hero-area-info .blog-item {
-        max-width: 100%;
+    .hero-area-info {
+        grid-template-columns: 1fr;
     }
     .blog-item img {
         max-width: 100%;
@@ -214,12 +210,6 @@ ul li a {
         min-width: calc(70vw/3);
     }
     .hero-area-info {
-        display: flex;
-        flex-wrap: wrap;
-        row-gap: 40px;
-        column-gap: 30px;
-    }
-    .blog-item {
-        max-width: 47%;
+        grid-template-columns: 1fr 1fr;
     }
 }
