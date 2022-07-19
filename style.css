@@ -5,3 +5,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+
+/*banner section*/
+
+.banner {
+    display: flex;
+    background-color: #161616;
+    max-width: 70%;
+    max-height: 80vh;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.banner-info {
+    color: #FFFFFF;
+    position: relative;
+    top: 100px;
+    left: 30px;
+}
+
+h1 {
+    font-size: 900;
+}
+
+.watch-button {
+    color: #FFFFFF;
+    background-color: #DD0000;
+    padding: 10px;
+    border: 5px solid #DD0000;
+    border-radius: 10px;
+}
+
+.banner-img {
+    width: 100%;
+    position: relative;
+    left: 30px;
+}
