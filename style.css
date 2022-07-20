@@ -148,7 +148,6 @@ ul li a {
 
 .footer {
     margin-bottom: 0;
-    ;
 }
 
 
@@ -157,7 +156,7 @@ ul li a {
 
 /*Mobile Phone */
 
-@media only screen and (max-width:576px) {
+@media only screen and (max-width:480px) {
     .banner {
         display: flex;
         flex-direction: column;
@@ -194,7 +193,7 @@ ul li a {
 
 /*  Tablets */
 
-@media only screen and (min-width: 576px) and (max-width:992px) {
+@media only screen and (min-width: 481px) and (max-width:768px) {
     .hero-area {
         display: flex;
         flex-direction: column;
