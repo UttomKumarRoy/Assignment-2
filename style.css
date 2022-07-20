@@ -101,6 +101,10 @@ h1 {
     column-gap: 35px;
 }
 
+.blog-padding {
+    padding: 10px;
+}
+
 .blog-item {
     border: 1px solid gray;
     border-radius: 10px;
@@ -212,7 +216,7 @@ ul li a {
         margin: 0 auto;
     }
     .hero-area-menu {
-        background-color: #161616;
+        background-color: #fff;
         display: flex;
         flex-direction: row;
         column-gap: 20px;
