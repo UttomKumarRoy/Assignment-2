@@ -181,6 +181,9 @@ ul li a {
         row-gap: 30px;
         background-color: #fff;
     }
+    .hero-area-menu {
+        background-color: #fff;
+    }
     .hero-area-menu button {
         width: 60%;
     }
