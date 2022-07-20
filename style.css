@@ -44,12 +44,60 @@ h1 {
     padding: 10px;
     border: 5px solid #DD0000;
     border-radius: 10px;
+    text-decoration: none;
 }
 
 .banner-img {
     width: 100%;
     position: relative;
     left: 30px;
+}
+
+
+/*animation section*/
+
+#football {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #ccc;
+    animation: moveFootball 4s infinite;
+    -webkit-animation: moveFootball 4s infinite;
+    /* Safari and Chrome */
+    position: absolute;
+    top: 50px;
+    left: 600px;
+}
+
+@keyframes moveFootball {
+    0% {
+        background-color: #ccc;
+    }
+    100% {
+        background-color: #ff0000;
+        left: 1000px;
+    }
+}
+
+@-webkit-keyframes moveFootball {
+    0% {
+        background-color: #ccc;
+        left: 0px;
+    }
+    100% {
+        background-color: #ff0000;
+        left: 1000px;
+    }
+}
+
+.animation {
+    height: 300px;
+}
+
+@media (max-width:768px) {
+    #football {
+        display: none;
+    }
 }
 
 
