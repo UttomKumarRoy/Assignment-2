@@ -22,7 +22,7 @@ section {
     display: flex;
     background-color: #161616;
     max-width: 80%;
-    max-height: 500px;
+    /*max-height: 500px;*/
     margin: 0 auto;
     border-radius: 10px;
 }
@@ -99,6 +99,11 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
     row-gap: 40px;
     column-gap: 35px;
+}
+
+.blog-item {
+    border: 1px solid gray;
+    border-radius: 10px;
 }
 
 .blog-item img {
@@ -194,6 +199,12 @@ ul li a {
 /*  Tablets */
 
 @media only screen and (min-width: 481px) and (max-width:768px) {
+    .banner-info {
+        color: #FFFFFF;
+        position: relative;
+        top: 0px;
+        left: 30px;
+    }
     .hero-area {
         display: flex;
         flex-direction: column;
