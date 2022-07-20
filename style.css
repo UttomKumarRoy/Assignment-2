@@ -94,12 +94,6 @@ h1 {
     height: 300px;
 }
 
-@media (max-width:768px) {
-    #football {
-        display: none;
-    }
-}
-
 
 /*Hero section */
 
@@ -220,6 +214,18 @@ ul li a {
         row-gap: 10em;
         max-height: 800px;
     }
+    #football {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-color: #ccc;
+        animation: moveFootball 4s infinite;
+        -webkit-animation: moveFootball 4s infinite;
+        /* Safari and Chrome */
+        position: absolute;
+        top: 300px;
+        left: 0;
+    }
     .banner-img {
         height: 12em;
     }
@@ -259,6 +265,18 @@ ul li a {
         position: relative;
         top: 0px;
         left: 30px;
+    }
+    #football {
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        background-color: #ccc;
+        animation: moveFootball 4s infinite;
+        -webkit-animation: moveFootball 4s infinite;
+        /* Safari and Chrome */
+        position: absolute;
+        top: 190px;
+        left: 0;
     }
     .hero-area {
         display: flex;
