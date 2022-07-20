@@ -219,8 +219,8 @@ ul li a {
         width: 150px;
         border-radius: 50%;
         background-color: #ccc;
-        animation: moveFootball 4s infinite;
-        -webkit-animation: moveFootball 4s infinite;
+        animation: moveFootball 2s infinite;
+        -webkit-animation: moveFootball 2s infinite;
         /* Safari and Chrome */
         position: absolute;
         top: 300px;
@@ -271,8 +271,8 @@ ul li a {
         width: 120px;
         border-radius: 50%;
         background-color: #ccc;
-        animation: moveFootball 4s infinite;
-        -webkit-animation: moveFootball 4s infinite;
+        animation: moveFootball 2s infinite;
+        -webkit-animation: moveFootball 2s infinite;
         /* Safari and Chrome */
         position: absolute;
         top: 190px;
